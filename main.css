@@ -1,0 +1,77 @@
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,400);
+
+body {
+font: normal normal 13px/16px "Open Sans", sans-serif;
+background: #dfdfdf;
+}
+
+.container{
+padding: 30px;
+width: 700px;
+height: 570px;
+margin: 0 auto;
+margin-top: 50px;
+background: white;
+border-radius: 15px;
+}
+
+.cont{
+  padding: 5px;
+  width: 700px;
+  height: none;
+  margin: 0 auto;
+  margin-top: 1px;
+  background: red;
+  border-radius: 10px;
+}
+
+form {
+display: inline-block;
+}
+p,h1{
+  padding: 5px 200px 5px 250px;
+}
+
+a{
+  padding: 1px 10px 2px 10px;
+}
+
+h5{
+  color: black;
+}
+
+input{
+padding: 5px 20px 5px 20px;
+font-size: large;
+}
+
+ol{
+  font-size: large;
+}
+
+#saveButton{
+display: inline-block;
+background-color:#000;
+color:#ffffff;
+border-radius: 10px;
+text-align:center;
+margin-top:2px;
+padding: 10px 10px;
+}
+
+#saveButton:hover{
+cursor: pointer;
+opacity: .5;}
+
+ol {padding-left: 25px;}
+
+ol li {padding: 5px;color:#000; font-weight: 200;}
+
+ol li:nth-child(even){background: #dfdfdf;}
+
+.strike{text-decoration: line-through;}
+
+li:hover{
+  cursor: pointer;
+ }
