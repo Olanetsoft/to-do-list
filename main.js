@@ -25,7 +25,7 @@ $(document).ready(
       });
       
       //This section below sorts all the to-do's added
-      $('ol').sortable();  
+      $('ol').sort();  
       
     }
 );
