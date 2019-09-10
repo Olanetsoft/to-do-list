@@ -11,7 +11,7 @@ $(document).ready(
        $("input[name=TextInput]").keyup(function(event){
           if(event.keyCode == 13){
             $("#saveButton").click();
-          }         
+          }    
       });
       
       //The section below execute when the to-do's item saved is double click which makes saved item deletes immediately
