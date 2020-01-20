@@ -4,8 +4,15 @@ $(document).ready(
     function(){
         $('#saveButton').click(
             function(){
+              
                 var toAdd = $('input[name=TextInput]').val();
-                 $('ol').append('<li>' + toAdd + '</li>');
+                if (toAdd != ''){
+                  $('ol').append('<li>' + toAdd + '</li>');
+                }
+                else{
+                  alert("To Do Field cannot be empty")
+                }
+                 
             });
        
        $("input[name=TextInput]").keyup(function(event){
